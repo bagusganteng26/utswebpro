@@ -22,7 +22,10 @@ const Navigation = ({type}) => {
       <p className="text-xm mt-5 text-center">
       Don't have an account? {" "}
       <Link to="/register" className="font-bold text-blue-600">
-      Register
+      Register - {" "}
+      </Link>
+      <Link to="/helo" className="font-bold text-blue-600">
+      Helo
       </Link>
       </p>
     );
@@ -31,7 +34,10 @@ const Navigation = ({type}) => {
       <p className="text-xm mt-5 text-center">
       Have an account? {" "}
       <Link to="/login" className="font-bold text-blue-600">
-      Login
+      Login - {" "}
+      </Link>
+      <Link to="/helo" className="font-bold text-blue-600">
+      Helo
       </Link>
       </p>
     );
